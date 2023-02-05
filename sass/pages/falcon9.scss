@@ -87,25 +87,7 @@
     background-color: black;
 }
 
-.downloadDesc{
-    background-color: black;
-    height: 85vh;
-    padding-top: 240px;
 
-    a{
-        text-decoration: none;
-        color: $copy-color;
-    &:hover{
-            color: $link-hover;
-    } 
-    }
-    
-
-    button{
-        border: 2px solid $link-hover;
-        margin-right: 10px;
-    }
-}
 
 @media (max-width: 768px) {
     .numbers{

@@ -42,9 +42,10 @@
     justify-content: center;
 }
 
-a {
+.emailBS {
     text-decoration: none;
     color: white;
+    border-bottom: 1px solid $copy-color;
 
     &:hover {
         color: $link-hover;
@@ -53,6 +54,26 @@ a {
 
 .copyOBC {
     color: $copy-color;
+}
+
+.downloadDesc{
+    background-color: black;
+    height: 85vh;
+    padding-top: 240px;
+
+    a{
+        text-decoration: none;
+        color: $copy-color;
+    &:hover{
+            color: $link-hover;
+    } 
+    }
+    
+
+    button{
+        border: 2px solid $link-hover;
+        margin-right: 10px;
+    }
 }
 
 // MediaQuery
@@ -74,8 +95,6 @@ a {
         font-size: 10px;
     }
 }
-
-
 
 @media (max-width: 350px) {
     .logoPC {
